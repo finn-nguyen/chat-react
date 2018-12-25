@@ -16,7 +16,7 @@ class ChannelList extends React.Component {
 ChannelList.propTypes = {
   channels: PropTypes.array.isRequired,
   setChannel: PropTypes.func.isRequired,
-  activeChannel: PropTypes.object.isRequired
+  activeChannel: PropTypes.object
 }
 
 export default ChannelList

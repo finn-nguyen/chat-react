@@ -23,7 +23,7 @@ ChannelSection.propTypes = {
   channels: PropTypes.array.isRequired,
   setChannel: PropTypes.func.isRequired,
   addChannel: PropTypes.func.isRequired,
-  activeChannel: PropTypes.object.activeChannel
+  activeChannel: PropTypes.object
 }
 
 export default ChannelSection
