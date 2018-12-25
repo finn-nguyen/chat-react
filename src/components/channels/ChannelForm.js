@@ -13,7 +13,15 @@ class ChannelForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.onSubmit}>
-        <input type='text' ref='channel' />
+        <div className='form-group'>
+          <input
+            className='form-control'
+            placeholder='Add Channel'
+            type='text'
+            ref='channel'
+          />
+        </div>
+        
       </form>
     )
   }
